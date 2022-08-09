@@ -4,6 +4,7 @@
  * print_format - format controller
  * @format: the base string
  * @valist : hold the argument passed
+ *
  * Return: total size of the argument with the total size of the base string
  */
 int print_format(const char *format, va_list valist)
@@ -48,6 +49,7 @@ int print_format(const char *format, va_list valist)
  * @str: the base string
  * @valist: number of arguments passed
  * @j: address of %
+ *
  * Return: total number of printed charcter inside the argument
  */
 int formatchecker(const char *str, va_list valist, int *j)
@@ -94,6 +96,7 @@ int formatchecker(const char *str, va_list valist, int *j)
 /**
  * _printf - prints anything
  * @format: list of argument type passed
+ *
  * Return: number of character printed
  */
 int _printf(const char *format, ...)
