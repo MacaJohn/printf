@@ -44,7 +44,7 @@ int buffer(char c);
 int _printf(const char *format, ...);
 
 /*print a character and string*/
-int print_char(va_list valist);
+int print_char(va_list list);
 int print_string(va_list valist);
 int print_rot13(va_list valist);
 int _puts(char *str);
